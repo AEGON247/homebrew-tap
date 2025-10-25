@@ -5,21 +5,21 @@
 class GitSmart < Formula
   desc "CLI tool to sync Git feature branches with the default branch."
   homepage "https://github.com/AEGON247/git-smart"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/AEGON247/git-smart/releases/download/v0.1.0/git-smart_0.1.0_darwin_amd64.tar.gz"
-      sha256 "ca53ef8779bd9c577c01ba70c0b75da02b09e5f06f3cd80c5c8f7a47184b8866"
+      url "https://github.com/AEGON247/git-smart/releases/download/v0.1.1/git-smart_0.1.1_darwin_amd64.tar.gz"
+      sha256 "02829c408c80acef81a79dba45055db11d7365a6d0f3e0213ae2d1d9eef7ff65"
 
       def install
         bin.install "git-smart"
       end
     end
     on_arm do
-      url "https://github.com/AEGON247/git-smart/releases/download/v0.1.0/git-smart_0.1.0_darwin_arm64.tar.gz"
-      sha256 "d5105665ba7b27734c711fdd85d5a9b06acaf8d03b22acd685fd030f3288980f"
+      url "https://github.com/AEGON247/git-smart/releases/download/v0.1.1/git-smart_0.1.1_darwin_arm64.tar.gz"
+      sha256 "1a37a944abe82beb34213cd3feb984196708c8ab5f77eca85e7fe63cb8780b11"
 
       def install
         bin.install "git-smart"
@@ -30,8 +30,8 @@ class GitSmart < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/AEGON247/git-smart/releases/download/v0.1.0/git-smart_0.1.0_linux_amd64.tar.gz"
-        sha256 "688c0c76d8f94036d6fe0e4811344c8ef6ee74c11f31a03f185891ebbcea23fb"
+        url "https://github.com/AEGON247/git-smart/releases/download/v0.1.1/git-smart_0.1.1_linux_amd64.tar.gz"
+        sha256 "419239279c281d1c0ad1e562014769895c8af49a232a464445ffedc0101db5ac"
 
         def install
           bin.install "git-smart"
@@ -40,8 +40,8 @@ class GitSmart < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/AEGON247/git-smart/releases/download/v0.1.0/git-smart_0.1.0_linux_arm64.tar.gz"
-        sha256 "9fae2f21c42db6525ac041e0e75d92bfcf95f1b39971d39a2a833b4407e9e7d9"
+        url "https://github.com/AEGON247/git-smart/releases/download/v0.1.1/git-smart_0.1.1_linux_arm64.tar.gz"
+        sha256 "36a2703879b716bf599230d7984f3ac42ea9dbd9a9673bf37cbcf48adfb190f7"
 
         def install
           bin.install "git-smart"
